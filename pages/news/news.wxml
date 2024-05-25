@@ -1,0 +1,8 @@
+<view class="news">
+  <image class="img" src="https://s2.loli.net/2024/04/24/1aoOJqbhcMQR75X.jpg" mode="aspectFit"></image>
+  <view class="decoration"></view>
+  <view class="title">
+    <image src="/images/decoration).svg"></image>
+    <text>提案：减少有毒污染</text>
+  </view>
+</view>

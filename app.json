@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/news/news",
+    "pages/news/news1",
+    "pages/news/news2",
+    "pages/news/news3",
+    "pages/date/date",
+    "pages/activities/activities",
+    "pages/individual/individual",
+    "pages/products/products",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "IO-SDU",
+    "navigationBarBackgroundColor": "#018eeb"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "主页"
+      }, 
+      {
+      "pagePath": "pages/activities/activities",
+      "text": "动态"
+      },
+      {
+      "pagePath": "pages/products/products",
+      "text": "文创"
+      }, 
+      {
+      "pagePath": "pages/individual/individual",
+      "text": "个人"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

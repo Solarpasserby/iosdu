@@ -1,0 +1,95 @@
+<!-- pages/home/home.wxml -->
+<swiper class="swiper-container" autoplay="ture" circular="ture">
+  <swiper-item>
+    <image src="https://s2.loli.net/2024/04/24/C23OwvzW5EGYZRr.png" mode="aspectFill"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://s2.loli.net/2024/04/24/T4U7ety1HL9dPRv.png" mode="aspectFill"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://s2.loli.net/2024/04/24/VIc3oT9j4KfpWEm.png" mode="aspectFill"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://s2.loli.net/2024/04/24/z65cfKCUyTH2Z8G.png" mode="aspectFill"></image>
+  </swiper-item>
+</swiper>
+
+<view>
+  <view class="head">
+    <image src="/images/decoration.svg"/>
+    <text>要闻</text>
+    <view bind:tap="jumpToNews">更多>></view>
+  </view>
+  <view class="part1-container">
+    <view class="part1-li" bind:tap="jumpToNews1">
+      <text>提案</text>
+      <image src="https://s2.loli.net/2024/04/24/1aoOJqbhcMQR75X.jpg" mode="aspectFill"/>
+      <view>减少有毒污染</view>
+    </view>
+    <view class="part1-li" bind:tap="jumpToNews2">
+      <text>提案</text>
+      <image src="https://s2.loli.net/2024/04/24/CGFMbSwBrq5yWo7.jpg" mode="aspectFill"/>
+      <view>不要战争</view>
+    </view>
+    <view class="part1-li" bind:tap="jumpToNews3">
+      <text>提案</text>
+      <image src="https://s2.loli.net/2024/04/24/1MIDGochE3qNAmt.jpg" mode="aspectFill"/>
+      <view>废弃物管理</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="head">
+    <image src="/images/decoration.svg"/>
+    <text>日历</text>
+    <view>更多>></view>
+  </view>
+  <view class="part2-container">
+    <view class="part2-li">
+      <view class="part2-li-view-1">
+        <text class="part2-li-date-1">2024.</text>
+        <text class="part2-li-date-2">04.20</text>
+        <text class="part2-li-festival">联合国中文日</text>
+      </view>
+      <view class="part2-li-view-2">
+        <image src="https://s2.loli.net/2024/04/27/daNX1VLWcZ8B4Jr.png" mode="aspectFill"></image>
+        <view class="part2-li-shadow-L"></view>
+        <view class="part2-li-shadow-R"></view>
+      </view>
+    </view>
+    <view class="part2-li">
+      <view class="part2-li-view-1">
+        <text class="part2-li-date-1">2024.</text>
+        <text class="part2-li-date-2">04.21</text>
+        <text class="part2-li-festival">世界创意和创新日</text>
+      </view>
+      <view class="part2-li-view-2">
+        <image src="https://s2.loli.net/2024/04/27/8mSF3hBU6TVEf2I.png" mode="aspectFill"></image>
+        <view class="part2-li-shadow-L"></view>
+        <view class="part2-li-shadow-R"></view>
+      </view>
+    </view>
+    <view class="part2-li">
+      <view class="part2-li-view-1">
+        <text class="part2-li-date-1">2024.</text>
+        <text class="part2-li-date-2">04.22</text>
+        <text class="part2-li-festival">国际地球母亲节</text>
+      </view>
+      <view class="part2-li-view-2">
+        <image src="https://s2.loli.net/2024/04/27/knU63W5v4jSdZVI.png" mode="aspectFill"></image>
+        <view class="part2-li-shadow-L"></view>
+        <view class="part2-li-shadow-R"></view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="head">
+    <image src="/images/decoration.svg"/>
+    <text>探索</text>
+    <view>更多>></view>
+  </view>
+</view>
+

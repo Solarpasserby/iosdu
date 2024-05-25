@@ -1,0 +1,131 @@
+/* pages/home/home.wxss */
+
+.swiper-container{
+  height: 320rpx;
+}
+
+.swiper-container image{
+  height: 320rpx;
+  width: 100%;
+}
+
+.head{
+  height: 60rpx;
+  margin-top: 20rpx;
+  padding: 10rpx;
+  display: flex;
+  align-items: center;
+  color: #018eeb;
+}
+
+.head image{
+  height: 56rpx;
+  width: 56rpx;
+}
+
+.head text{
+  font-size: 40rpx;
+  width: 72%;
+}
+
+.head view{
+  margin: 15rpx;
+  font-size: 24rpx;
+}
+
+.part1-container{
+  margin: auto;
+  width: 95%;
+  display: flex;
+}
+
+.part1-li {
+  width: 30%;
+  margin: 0 20rpx;
+  position: relative;
+}
+
+.part1-li text{
+  position: absolute;
+  bottom: 50rpx;
+  writing-mode: vertical-rl;
+  font-size: 45rpx;
+  color: white;
+}
+
+.part1-li image{
+  height: 300rpx;
+  width: 100%;
+}
+
+.part1-li view{
+  padding-left: 4rpx;
+  font-size: 26rpx;
+  color: #018eeb;
+}
+
+.part2-container{
+  margin: auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.part2-li {
+  width: 100%;
+  margin: 10rpx 0;
+  display: flex;
+  position: relative;
+}
+
+.part2-li-view-1{
+  width: 45%;
+  padding: 10rpx 0;
+}
+
+.part2-li-view-2{
+  width: 55%;
+  position: relative;
+}
+
+.part2-li-date-1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40rpx;
+  color: #018eeb;
+}
+
+.part2-li-date-2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40rpx;
+  font-weight: 900;
+  color: #018eeb;
+}
+
+.part2-li-festival{
+  font-weight: 500;
+  color: #095e96;
+  display: block;
+}
+
+.part2-li-view-2 image{
+  height: 100rpx;
+  width: 100%;
+}
+
+.part2-li-shadow-L{
+  height: 100rpx;
+  width: 50%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.part2-li-shadow-R{
+  height: 100rpx;
+  width: 50%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  position: absolute;
+  right: 0;
+  top: 0;
+}

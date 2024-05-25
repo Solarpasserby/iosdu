@@ -1,0 +1,19 @@
+{
+  "name": "io-sdu",
+  "version": "1.0.0",
+  "description": "iosdu miniprogram develop",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solarpasserby/iosdu.git"
+  },
+  "author": "solarpasserby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Solarpasserby/iosdu/issues"
+  },
+  "homepage": "https://github.com/Solarpasserby/iosdu#readme"
+}
